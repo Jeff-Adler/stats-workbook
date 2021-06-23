@@ -2,6 +2,7 @@
 # B = { -5,3,12,190,-10 }
 
 list_of_values = [-5, 3, 12, 190, -10]
+list_of_values_copy = list_of_values
 
 def calculate_avg(list_of_values):
   return sum(list_of_values) / len(list_of_values)
@@ -35,4 +36,4 @@ def variance(data):
   variance = sum(deviations) / n
   return variance
 
-print("Variance from function: ", variance)
+print("Variance from function: ", variance(list_of_values_copy))
