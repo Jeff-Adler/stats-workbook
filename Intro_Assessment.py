@@ -38,10 +38,24 @@ def variance(data):
   variance = sum(deviations) / n
   return variance
 
+print(f"Stats for {list_of_values}")
+
 print("Mean: ", (sum(list_of_values) / len(list_of_values)))
 
 print("Variance: ", variance(list_of_values))
 
-print("Square Root: ", math.sqrt(variance(list_of_values)))
+print("Standard Deviation: ", math.sqrt(variance(list_of_values)))
 
 print("Median value: ", statistics.median(list_of_values))
+
+list_of_values_2 = [ 10,2,38,23,38,23,21,5 ]
+
+print(f"Stats for {list_of_values_2}")
+
+print("Mean: ", (sum(list_of_values_2) / len(list_of_values_2)))
+
+print("Variance: ", variance(list_of_values_2))
+
+print("Standard Deviation: ", math.sqrt(variance(list_of_values_2)))
+
+print("Median value: ", statistics.median(list_of_values_2))
