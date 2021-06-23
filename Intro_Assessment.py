@@ -1,6 +1,7 @@
 # 1. Find the variance of B
 # B = { -5,3,12,190,-10 }
 import math
+import statistics
 
 list_of_values = [-5, 3, 12, 190, -10]
 # list_of_values_copy = list_of_values
@@ -37,6 +38,10 @@ def variance(data):
   variance = sum(deviations) / n
   return variance
 
-print("Variance from function: ", variance(list_of_values))
+print("Mean: ", (sum(list_of_values) / len(list_of_values)))
+
+print("Variance: ", variance(list_of_values))
 
 print("Square Root: ", math.sqrt(variance(list_of_values)))
+
+print("Median value: ", statistics.median(list_of_values))
