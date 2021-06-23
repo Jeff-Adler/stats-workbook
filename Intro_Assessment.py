@@ -22,4 +22,17 @@ sum_of_squared_differences = sum(squared_differences)
 
 variance = sum_of_squared_differences / len(list_of_values)
 
-print(variance) 
+print("Variance from script: ", variance) 
+
+def variance(data):
+  # Number of observations
+  n = len(data)
+  # Mean of the data
+  mean = sum(data) / n
+  # Square deviations
+  deviations = [(x - mean) ** 2 for x in data]
+  # Variance
+  variance = sum(deviations) / n
+  return variance
+
+print("Variance from function: ", variance)
