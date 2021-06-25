@@ -24,3 +24,5 @@ in other words: the greater the correlation (= r-value), the more likely it is t
 - - ex. combination locks or phone numbers
 - - basically an ordered combination
 - - Permutation results should always be HIGHER than combination, since every different permutation is a possible outcome. In a combination, any change in ordering is irrelevant.
+
+- combination & permutation are not about probability in and of itself, but about describing events
