@@ -8,3 +8,7 @@ in other words: the greater the correlation (= r-value), the more likely it is t
 - Anscombe’s Quartet is a group of four data sets that serve as a canonical example of where statistical metrics like mean and variance don’t tell the whole story. It also enforces the value of data visualization and the benefits to plotting our data in addition to quantified analysis.
 -- Basically: its four data sets with entirely different distributions of data, but the same (deceptive) slope
 
+## Probability
+
+- Independent Probability: events whose probability of occuring are independent of each other
+- ex. chance youll get heads x (> 1) times in a row on coin flip
