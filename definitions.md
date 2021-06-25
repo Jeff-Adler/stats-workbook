@@ -11,5 +11,9 @@ in other words: the greater the correlation (= r-value), the more likely it is t
 ## Probability
 
 - Independent Probability: events whose probability of occuring are independent of each other
-- ex. chance youll get heads x (> 1) times in a row on coin flip
-- simply multiply the probabilities together
+- - ex. chance youll get heads x (> 1) times in a row on coin flip
+- - simply multiply the probabilities together
+- - Intersect: where two independent probabilities meet (= AND = &&)
+- - Union: where EITHER of two probabilities hold (= OR = ||)
+
+- Conditional Probability: probability of one event depends on outcome of another
