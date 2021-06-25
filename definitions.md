@@ -18,7 +18,9 @@ in other words: the greater the correlation (= r-value), the more likely it is t
 
 - Conditional Probability: probability of one event depends on outcome of another
 
-- Combination: when the order of a number of events doesn't matter. Order specifically doesn't affect the probability of one happening, whether conditional or not.
+- Combination: when the order of a number of events doesn't matter. 
 
 - Permutation: when order of events does matter.
 - - ex. combination locks or phone numbers
+- - basically an ordered combination
+- - Permutation results should always be HIGHER than combination, since every different permutation is a possible outcome. In a combination, any change in ordering is irrelevant.
